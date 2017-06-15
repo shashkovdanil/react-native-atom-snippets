@@ -1,0 +1,16 @@
+'.source.js':
+  'platform select':
+    'prefix': 'pls'
+    'body': """
+      ...Platform.select({
+        ios: {
+
+        },
+        android: {
+
+        }
+      })
+    """
+  'platform os':
+    'prefix': 'plos'
+    'body': 'Platform.OS === \'ios\' ?  : '
